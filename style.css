@@ -1,0 +1,15 @@
+.card-columns {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .card-columns.card {
+    display: inline-block;
+    width: 300px;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+  
+  .card-columns.card:last-child {
+    margin-right: 0;
+  }
